@@ -1,25 +1,29 @@
 {
   "name": "team-profile-manager",
   "version": "1.0.0",
-  "description": "A package that will allow you to manage the profiles of your various team members.",
+  "description": "",
   "main": "index.js",
   "directories": {
     "lib": "lib"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest",
+    "test:watch": "jest --watch"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/SmithBWare89/team-profile-manager.git"
   },
-  "author": "Stephon Smith",
-  "license": "MIT",
+  "author": "",
+  "license": "ISC",
   "bugs": {
     "url": "https://github.com/SmithBWare89/team-profile-manager/issues"
   },
   "homepage": "https://github.com/SmithBWare89/team-profile-manager#readme",
   "dependencies": {
     "inquirer": "^7.3.3"
+  },
+  "devDependencies": {
+    "jest": "^26.2.2"
   }
 }
