@@ -1,3 +1,4 @@
-const Employee = require('./lib/employee');
-const Manager = require('./lib/manager');
+const Create = require('./lib/create');
+
+new Create().initialize();
 
