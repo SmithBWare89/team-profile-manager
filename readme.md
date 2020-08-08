@@ -40,7 +40,7 @@ Submit any requests or contributions to the e-mail listed under "Questions".
 There were no other contributors to this project.
 
 ## Test
-This project uses the Jest package to allow the user to run tests on the constructor classes. In your console you can run a test by inputting "npm test file-name-to-test." An example would be to run "npm test manager" to test the manager constructor classes. You can also run Jest in watch mode using "npm test:watch" to monitor your files and run tests upon saving the document.
+This project uses the Jest package to allow the user to run tests on the constructor classes. In your console you can run a test by inputting `"npm test file-name-to-test"` An example would be to run `"npm test manager"` to test the manager constructor classes. You can also run Jest in watch mode using `"npm test:watch"` to monitor your files and run tests upon saving the document.
 
 ## Questions
 All questions can be directed to [my email](SmithWrestling89@gmail.com) or [github](https://www.github.com/SmithBWare89).
