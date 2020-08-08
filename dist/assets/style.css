@@ -1,0 +1,78 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body, html {
+    width: 100%;
+}
+
+header {
+    text-align: center;
+    background-color: red;
+    padding: 50px;
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 50%;
+    margin: 0 auto;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 250px;
+    margin: 10px;
+    background-color: lightgrey;
+    border-radius: 5px 5px 5px 5px;
+  }
+  
+  /* On mouse-over, add a deeper shadow */
+  .card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+  
+  /* Add some padding inside the card container */
+  .card-container {
+    padding: 10px 16px 16px 16px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .card-container li {
+      list-style: none;
+      background-color: white;
+      font-weight: 700;
+      font-size: 15px;
+  }
+
+  .card-header {
+      background: blue;
+      color: white;
+      padding: 10px;
+  }
+
+  .card-header h1 {
+      font-size: 20px;
+  }
+
+  .name {
+      margin-left: 10px;
+  }
+
+  .role{
+      margin-left: 10px;
+      margin-bottom: px;
+  }
+
+  .item {
+    border: 1px solid black;
+    padding: 5px;
+    margin-bottom: 0;
+  }

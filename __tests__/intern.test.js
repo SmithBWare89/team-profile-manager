@@ -1,8 +1,11 @@
 const Intern = require('../lib/intern');
+const Employee = require('../lib/__mocks__/employee')
+
+new Employee();
+const intern = new Intern('Dave','Email@gmail.com','University of Central Florida', 231321);
+
 
 test('if the employee information extends to Intern', () => {
-    const intern = new Intern('University of Central Florida');
-
     expect(intern.name).toEqual(expect.any(String));
     expect(intern.email).toEqual(expect.any(String));
     expect(intern.role).toEqual(expect.any(String));
@@ -10,37 +13,27 @@ test('if the employee information extends to Intern', () => {
 })
 
 test('if the role returned is Intern', () => {
-    const intern = new Intern('University of Central Florida');
-
-    expect(intern.role).toEqual('Intern');
+    expect(intern.getRole()).toEqual('Intern');
 })
 
 test('if school returns a string', () => {
-    const intern = new Intern('University of Central Florida');
-
     expect(intern.school).toEqual(expect.any(String));
 })
 
 test('if schools value is user Inputted', () => {
-    const intern = new Intern('University of Central Florida');
-
     expect(intern.school).toEqual('University of Central Florida')
 })
 
 test('if getSchool function returns a string', () => {
-    const intern = new Intern('University of Central Florida');
-
     expect(intern.getSchool()).toEqual(expect.any(String))
 })
 
 test('if getSchool returns the user inputted string', () => {
-    const intern = new Intern('University of Central Florida');
-
     expect(intern.getSchool()).toEqual('University of Central Florida');
 })
 
 test('if input only allows letters', () => {
-    const intern = new Intern('Alcorn Agricultural & Mechanical College');
+    const intern = new Intern('Dave','Email@gmail.com','Alcorn Agricultural & Mechanical College', 231321);
     const intern2 = new Intern('1231');
 
     expect('School name cannot contain numbers or special characters.');

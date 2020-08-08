@@ -1,3 +1,3 @@
-const Create = require('./lib/create');
+const NewTeam = require('./lib/newteam');
 
-new Create().initialize();
+new NewTeam().newTeam();
