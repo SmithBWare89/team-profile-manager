@@ -21,7 +21,8 @@
   },
   "homepage": "https://github.com/SmithBWare89/team-profile-manager#readme",
   "dependencies": {
-    "inquirer": "^7.3.3"
+    "inquirer": "^7.3.3",
+    "node-email-validation": "^1.0.4"
   },
   "devDependencies": {
     "jest": "^26.2.2"
