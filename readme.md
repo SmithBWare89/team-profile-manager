@@ -11,6 +11,7 @@ This project will provide a simplified way to input, track, and manage the profi
 * [Contributing](#contributing)
 * [Collaborator](#collaborators)
 * [Tests](#test)
+* [Questions](#questions)
 
 ## Installation
 `Clone` the repository from the provided GitHub link then run `npm install` to install all Node packages.
