@@ -5,9 +5,9 @@ const fs = require('fs');
 const cp = require('child_process');
 
 // Class Constructors
-const Engineer = require('./engineer');
-const Manager = require('./manager');
-const Intern = require('./intern');
+const Engineer = require('./lib/engineer');
+const Manager = require('./lib/manager');
+const Intern = require('./lib/intern');
 
 class NewTeam {
     constructor(){
@@ -329,6 +329,8 @@ class NewTeam {
                 };
             })
     }
-} 
+}
+
+new NewTeam().newTeam();
 
 module.exports = NewTeam;
